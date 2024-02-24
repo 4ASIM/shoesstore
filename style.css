@@ -1,0 +1,142 @@
+h1 {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #333333;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  h1:hover {
+	transform: scale(1.1);
+	color: #008080;
+  }
+body {
+	background-image: url("imgg/f.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+.button-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*height: 300px; /* Adjust the height as needed */
+  }
+  
+  .my-button {
+	background-color: #555;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	width: 200px;
+	margin-bottom: 10px; /* Add margin between the buttons */
+	text-align: center;
+  }
+  
+  .my-button:hover {
+	background-color: #333;
+  }
+  
+  .my-button:active {
+	background-color: #888;
+  }
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+.home-nav a {
+	padding: 10px;
+	color: #fe231b;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.homeq{
+	padding: 10px;
+	color: #fe231b;
+	font-size:20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
